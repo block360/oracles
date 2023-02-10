@@ -71,40 +71,40 @@
         "url": "https://github.com/NixOS/nixpkgs/archive/3a86856a13c88c8c64ea32082a851fefc79aa700.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "omnia": {
+ "omnia": {
         "branch": "master",
         "description": null,
         "homepage": "",
-        "owner": "chronicleprotocol",
-        "repo": "omnia",
-        "rev": "v1.14.0",
-        "sha256": "0hc01gf7nclws286fv1616n67sj974zv5d8pcpl95dffgl8xhkyd",
-        "type": "tarball",
-        "url": "https://github.com/chronicleprotocol/omnia/archive/v1.14.0.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
+        "owner": "gsu-protocol",
+        "repo": "https://github.com/gsu-protocol/omnia.git",
+        "rev": "b0c51fb54499710e37cdbfda5d9a121ce4154984",
+        "sha256": "b0c51fb54499710e37cdbfda5d9a121ce4154984",
+        "type": "git",
+        "url": "https://github.com/gsu-protocol/omnia.git",
+        "url_template": "<repo>"
+    },     
     "oracle-suite": {
         "branch": "master",
         "description": null,
-        "homepage": null,
-        "owner": "chronicleprotocol",
-        "repo": "oracle-suite",
-        "rev": "v0.8.1",
-        "sha256": "0glv4vwl8lh3a0fr968yfa8rxjin1gwpwzpnm91x4ybcibnb2lp8",
-        "type": "tarball",
-        "url": "https://github.com/chronicleprotocol/oracle-suite/archive/v0.8.1.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
+        "homepage": "",
+        "owner": "gsu-protocol",
+        "repo": "https://github.com/gsu-protocol/oracle-suite.git",
+        "rev": "e84d25f63adae3a8209c9b394e979ea94fe83768",
+        "sha256": "e84d25f63adae3a8209c9b394e979ea94fe83768",
+        "type": "git",
+        "url": "https://github.com/gsu-protocol/oracle-suite.git",
+        "url_template": "<repo>"
+    },     
     "setzer": {
         "branch": "master",
         "description": null,
         "homepage": "",
-        "owner": "chronicleprotocol",
-        "repo": "setzer",
-        "rev": "v0.7.0",
-        "sha256": "1qcm8xf3h79llxy8wlxmh5qxc8vygpjkhppgxv5aafjcmd2373b6",
-        "type": "tarball",
-        "url": "https://github.com/chronicleprotocol/setzer/archive/v0.7.0.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+        "owner": "gsu-protocol",
+        "repo": "https://github.com/gsu-protocol/setzer.git",
+        "rev": "0fa19d21e2d7346296f27936405ed054539356d6",
+        "sha256": "",
+        "type": "git",
+        "url": "https://github.com/gsu-protocol/setzer.git",
+        "url_template": "<repo>"
     }
 }
