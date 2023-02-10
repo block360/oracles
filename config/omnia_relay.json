@@ -1,0 +1,39 @@
+{
+  "mode": "relay",
+  "ethereum": {
+    "from": "0x559a2d022b91A40ba474BbD1e60119208813F1f9",
+    "keystore": "/home/usman/.ethereum/keystore",
+    "password": "/home/usman/.ethereum/keystore/pass",
+    "network": "http://127.0.0.1:8545",
+"type":"http://127.0.0.1:8545",
+    "gasPrice": {
+      "source": "node",
+      "maxPriceMultiplier": 2,
+      "tipMultiplier": 1,
+      "priority": "fast"
+    }
+  },
+  "sources": [],
+  "transports": [
+    "spire"
+  ],
+  "feeds": [
+    "0x559a2d022b91A40ba474BbD1e60119208813F1f9",
+    "0x1bE12fE46E8dccE1435cA2a95E1E8Fd067f54adf",
+    "0x78f885aE75e853A83fFa32Ec0f0E8915C2310783"
+  ],
+  "options": {
+    "interval": 60,
+    "msgLimit": 35,
+    "verbose": true,
+    "logFormat": "json"
+  },
+  "pairs": {
+    "ETH/USD": {
+      "msgExpiration": 1800,
+      "oracle": "0xb8BDBab7eF7d89847Eee92099ad2D8Eac9A88Acd",
+      "oracleExpiration": 14400,
+      "oracleSpread": 0.01
+    }
+  }
+}
