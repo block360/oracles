@@ -1,3 +1,4 @@
+# the result folder created with nix-build
 while [ -n "$1" ]
 do
 case "$1" in
