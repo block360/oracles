@@ -1,0 +1,27 @@
+{
+    "ethereum": {
+        "from": "0x78f885aE75e853A83fFa32Ec0f0E8915C2310783",
+        "keystore": "/home/usman/.ethereum/keystore",
+        "password": "/home/usman/.ethereum/keystore/pass"
+    },
+    "transport": {
+        "libp2p": {
+            "bootstrapAddrs": [
+            ]
+        }
+    },
+    "feeds": [
+        "0x78f885aE75e853A83fFa32Ec0f0E8915C2310783",
+        "0x1bE12fE46E8dccE1435cA2a95E1E8Fd067f54adf",
+        "0x559a2d022b91A40ba474BbD1e60119208813F1f9"
+
+    ],
+    "spire": {
+        "rpc": {
+            "address": "127.0.0.1:8089"
+        },
+        "pairs": [
+            "ETHUSD"
+        ]
+    }
+}

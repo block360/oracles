@@ -1,0 +1,33 @@
+{
+  "mode": "feed",
+  "ethereum": {
+    "from": "0x559a2d022b91A40ba474BbD1e60119208813F1f9",
+    "keystore": "/home/usman/.ethereum/keystore",
+    "password": "/home/usman/.ethereum/keystore/pass",
+    "type": "ethereum",
+    "network": "http://127.0.0.1:8545"
+  },
+  "options": {
+    "interval": 60,
+    "msgLimit": 35,
+    "srcTimeout": 10,
+    "setzerTimeout": 10,
+    "setzerCacheExpiry": 120,
+    "setzerMinMedian": 1,
+    "setzerEthRpcUrl": "http://127.0.0.1:9989",
+    "verbose": true,
+    "logFormat": "text"
+  },
+  "sources": [
+    "gofer"
+  ],
+  "transports": [
+    "spire"
+  ],
+  "pairs": {
+    "ETH/USD": {
+      "msgExpiration": 1800,
+      "msgSpread": 0.5
+    }
+  }
+}
