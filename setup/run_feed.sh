@@ -8,7 +8,7 @@ export GOFER_PATH=$(pwd)/result-3/bin/gofer
 shift
   ;;
 --omnia) 
-cp -v $2 $(pwd)/result/share/relay.conf
+cp -v $2 $(pwd)/result/share/feed.conf
 export OMNIA_CONFIG=$2
 export OMNIA_VERBOSE=true
 export OMNIA_PATH=$(pwd)/result-2/bin/omnia
@@ -29,4 +29,4 @@ shift
 done
 
 export SETZER_MIN_MEDIAN=1
-$(pwd)/result/bin/install-omnia relay
+$(pwd)/result/bin/install-omnia feed
