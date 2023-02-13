@@ -3,7 +3,7 @@ while [ -n "$1" ]
 do
 case "$1" in
 --gofer)
-cp -v $2 $(pwd)/result/share/gofer.conf
+cp -v $2 $(pwd)/result/share/gofer.json
 export GOFER_CONFIG=$2
 # The result-3 directory is created by nix and it is a symbolic link of nix's installed package, which contain spire , gofer, ghost, keeman etc
 export GOFER_PATH=$(pwd)/result-3/bin/gofer
@@ -18,7 +18,7 @@ export OMNIA_PATH=$(pwd)/result-2/bin/omnia
 shift
 ;;
 --spire) 
-cp -v $2 $(pwd)/result/share/spire.conf
+cp -v $2 $(pwd)/result/share/spire.json
 export SPIRE_CONFIG=$2
 # The result-3 directory is created by nix and it is a symbolic link of nix's installed package, which contain spire , gofer, ghost, keeman etc
 export SPIRE_PATH=$(pwd)/result-3/bin/spire
