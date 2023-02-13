@@ -6,6 +6,7 @@ case "$1" in
 cp -v $2 $(pwd)/result/share/gofer.conf
 export GOFER_CONFIG=$2
 # The result-3 directory is created by nix and it is a symbolic link of nix's installed package, which contain spire , gofer, ghost, keeman etc
+
 export GOFER_PATH=$(pwd)/result-3/bin/gofer
 shift
   ;;
